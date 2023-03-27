@@ -46,8 +46,6 @@ positions = [(100,100), (0,0), (50,50)]
 strings = ["Hello", "how are you", "good bye"]
 writing(positions, strings)
 
-
-
 hideturtle()
 
 done()

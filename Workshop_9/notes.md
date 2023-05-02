@@ -14,3 +14,7 @@ https://www.linkedin.com/learning-login/share?account=57080313&forceAccount=fals
 ## Game Development (In C#, covers some Computer Science Concepts):
 # Udemy (Not free but a good course):
 https://www.udemy.com/share/101XCe3@uXuGpViyZEbuQEgj_x7CfTuKUbRyTv76toOvMonOpaecttyWkn09l_LU6wF53n1n/
+
+## React - Web development 
+# Udemy (Not free but a good course):
+https://www.udemy.com/share/101Wf43@Amo6itSKUkfvG1JYPLVvKN6MSQDy5VXJ_DKr9PH4QvJ66-Ue4XtaFBnmN6i3T3JG/

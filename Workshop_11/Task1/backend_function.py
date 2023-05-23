@@ -110,8 +110,8 @@ def create_database():
     connection.close()
 
 def add_employee_rating(emp_ID, rating):
-    if not exists(db_name):
-        create_database(db_name)
+    # if not exists(db_name):
+    #     create_database(db_name)
     
 
     db_name = "employees.db"

@@ -22,7 +22,7 @@
 from tkinter import *
 
 # Import the back-end function developed by the other team
-from backend_function import search_by_db
+from backend_function import search_by_db, add_employee_rating
 
 
 #--------------------------------------------------------------------#
@@ -40,10 +40,11 @@ def searchEntry(Label, entrytext = None):
     
     ##Put return data here to replace the text in the label
     # Label['text'] = entrytext
-    for emp_no, birth_date, first_name, last_name, gender, hire_date in search_by_db(entrytext):
-        Label['state'] = 'normal'
-        Label.insert('1.0',f"{emp_no}: {first_name}, {last_name}, {birth_date}\n")
-        Label['state'] = 'disabled'
+    # for emp_no, birth_date, first_name, last_name, gender, hire_date in search_by_db(entrytext):
+    #     Label['state'] = 'normal'
+    #     Label.insert('1.0',f"{emp_no}: {first_name}, {last_name}, {birth_date}\n")
+    #     Label['state'] = 'disabled'
+    add_employee_rating(1000, entrytext)
     
         
 #----------------------------------------------------------------#

@@ -39,12 +39,12 @@ def searchEntry(Label, entrytext = None):
         return
     
     ##Put return data here to replace the text in the label
-    # Label['text'] = entrytext
-    # for emp_no, birth_date, first_name, last_name, gender, hire_date in search_by_db(entrytext):
-    #     Label['state'] = 'normal'
-    #     Label.insert('1.0',f"{emp_no}: {first_name}, {last_name}, {birth_date}\n")
-    #     Label['state'] = 'disabled'
-    add_employee_rating(1000, entrytext)
+    Label['text'] = entrytext
+    for emp_no, birth_date, first_name, last_name, gender, hire_date in search_by_db(entrytext):
+        Label['state'] = 'normal'
+        Label.insert('1.0',f"{emp_no}: {first_name}, {last_name}, {birth_date}\n")
+        Label['state'] = 'disabled'
+    #add_employee_rating(1000, entrytext)
     
         
 #----------------------------------------------------------------#

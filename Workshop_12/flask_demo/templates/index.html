@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home page</title>
+    </head>
+    <body>
+        <h1>This is my page</h1>
+        <p>It is a very good page</p>
+        <p>This is my content {{content}}</p>
+        {% if content == "true" %}
+            <h2>The content is showing as true</h2>
+        {% else %}
+            <h2>The content is not so true</h2>
+        {% endif %}
+    </body>
+</html>
